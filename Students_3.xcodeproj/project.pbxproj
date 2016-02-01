@@ -15,6 +15,7 @@
 		69F4600F1C6021DE00B642BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69F4600D1C6021DE00B642BD /* LaunchScreen.storyboard */; };
 		69F4601A1C6021DE00B642BD /* Students_3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F460191C6021DE00B642BD /* Students_3Tests.m */; };
 		69F460251C6021DE00B642BD /* Students_3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F460241C6021DE00B642BD /* Students_3UITests.m */; };
+		69F460341C6024C400B642BD /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F460331C6024C400B642BD /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		69F460201C6021DE00B642BD /* Students_3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Students_3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69F460241C6021DE00B642BD /* Students_3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Students_3UITests.m; sourceTree = "<group>"; };
 		69F460261C6021DE00B642BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69F460321C6022CF00B642BD /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		69F460331C6024C400B642BD /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				69F460001C6021DE00B642BD /* main.m */,
+				69F460321C6022CF00B642BD /* Student.h */,
+				69F460331C6024C400B642BD /* Student.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 				69F460071C6021DE00B642BD /* ViewController.m in Sources */,
 				69F460041C6021DE00B642BD /* AppDelegate.m in Sources */,
 				69F460011C6021DE00B642BD /* main.m in Sources */,
+				69F460341C6024C400B642BD /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
